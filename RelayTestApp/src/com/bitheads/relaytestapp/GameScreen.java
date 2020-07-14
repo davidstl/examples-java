@@ -166,7 +166,7 @@ class GameScreen extends Screen
                 {
                     playArea.repaint();
                 }
-            }, 0, 1000 / 30);
+            }, 0, 1000 / 60);
         }
 
         // Leave button

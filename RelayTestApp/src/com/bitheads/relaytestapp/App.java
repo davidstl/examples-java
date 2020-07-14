@@ -93,7 +93,7 @@ public class App implements IRelayCallback, IRelaySystemCallback
                     while (true)
                     {
                         _bcWrapper.runCallbacks();
-                        wait(100);
+                        wait(1);
                     }
                 }
                 catch (Exception e)
